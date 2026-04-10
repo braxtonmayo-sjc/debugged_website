@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gallery.src = ".assets/image1.png";
       toggled = false;
     } else {
-      gallery.src = "./assets/image-does-not-exist.jpg"; 
+      gallery.src = "assets/pumpkin.jpg"; 
       toggled = true;
     }
   });
