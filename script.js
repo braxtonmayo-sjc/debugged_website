@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.getElementById("toggleImage");
  
  
-   colorButton.addEventListener("click", () => {
+  colorButton.addEventListener("click", () => {
     box.style.backgroundColor = 
       box.style.backgroundColor === "blue" ? "red" : "blue"; 
   });
