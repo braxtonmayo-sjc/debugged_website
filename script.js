@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let toggled = false;
   toggleButton.addEventListener("click", () => {
     if (toggled) {
-      gallery.src = ".assets/image1.png";
+      gallery.src = "assets/image1.jpg";
       toggled = false;
     } else {
       gallery.src = "assets/pumpkin.jpg"; 
