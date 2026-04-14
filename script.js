@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
  
   colorButton.addEventListener("click", () => {
     box.style.backgroundColor = 
-      box.style.backgroundColor === "blue" ? "red" : "blue"; 
+      box.style.backgroundColor === "black" ? "darkorange" : "black"; 
   });
  
  
